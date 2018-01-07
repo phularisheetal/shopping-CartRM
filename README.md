@@ -31,5 +31,5 @@ open application at http://localhost:8080/
 ![Products](screens/productsList.png?fileviewer=file-view-default)
 
 ![Product Details](screens/productsDetail.png?fileviewer=file-view-default)
-![Filtered Products](Screenshot/filterProducts.png?fileviewer=file-view-default)
-![Cart](Screenshot/cart.png?fileviewer=file-view-default)
+![Filtered Products](screens/filterProducts.png?fileviewer=file-view-default)
+![Cart](screens/cart.png?fileviewer=file-view-default)
