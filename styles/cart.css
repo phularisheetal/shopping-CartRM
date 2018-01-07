@@ -1,0 +1,7 @@
+.cartCont {
+  height: 90vh;
+position: relative;
+top: 65px;
+display: flex;
+background: rgb(210,226,241);
+}

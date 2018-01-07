@@ -1,0 +1,38 @@
+.checkboxCustom {
+    opacity: 0;
+    position: absolute;
+}
+
+.checkboxCustom, .checkboxCustomLabel{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.checkboxCustomLabel {
+    position: relative;
+}
+
+.checkboxCustom + .checkboxCustomLabel:before {
+    content: '';
+    background: #fff;
+    border: 2px solid #ddd;
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.checkboxCustom:checked + .checkboxCustomLabel:before {
+    background: rgb(140,186,78);
+}
+
+
+
+.checkboxCustom:focus + .checkboxCustomLabel{
+  outline: 1px solid #ddd; /* focus style */
+}

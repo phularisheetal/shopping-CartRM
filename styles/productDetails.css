@@ -1,0 +1,81 @@
+.pdCont {
+  height: 95vh;
+  position: relative;;
+  top:65px;
+  display: flex;
+  background: rgb(210,226,241)
+}
+.imgCont {
+width: 70%;
+}
+.details {
+  width: 30%;
+}
+
+.imgCont div {
+  width: 600px;
+  height: 500px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    background:white;
+}
+
+.imgCont,.details {
+  justify-content: center;
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+}
+.imgCont h1 {
+  font-weight: 400;
+  text-align: left;
+  width: 80%;
+  font-size: 40px
+}
+.pdCont img {
+  width: 100%;
+height: 100%;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding: 30px;
+
+}
+
+.details p {
+    font-size: 20px;
+    width: 100%
+}
+
+.details input {
+  padding: 10px 45px;
+  background: rgb(140,186,78);
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  width: 300px;
+  height: 80px
+}
+
+.quantity ,.price,.desc {
+  padding:10px 40px;
+}
+.quantity {
+ font-size: 30px!important;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 30px!important;
+}
+
+.desc {
+}
