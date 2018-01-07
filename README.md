@@ -9,4 +9,4 @@ Steps to Run the Application
 
 Screenshots of the application is in Screens folder insider project folder
 
-technologies used are React, Redux,React router-2, Redux-thunk,Jest and enzyme for unit testing,HTML,CSS, Webpack
+technologies used are React, Redux,React Router4, Redux-thunk,Jest for unit testing,HTML,CSS, Webpack
