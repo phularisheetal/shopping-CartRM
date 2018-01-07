@@ -28,7 +28,7 @@ open application at http://localhost:8080/
       -- Webpack, there are other build tooks like gulp and grunt, webpack can actually split up your bundle.js, can control application assets,and even support hot reloading.
 
 ## Screenshots
-![Products](screens/productsListpng?fileviewer=file-view-default)
+![Products](screens/productsList.png?fileviewer=file-view-default)
 
 ![Product Details](screens/productsDetail.png?fileviewer=file-view-default)
 ![Filtered Products](Screenshot/filterProducts.png?fileviewer=file-view-default)
